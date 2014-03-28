@@ -33,7 +33,7 @@ class FTPUploader : EditorWindow
 	/// Initializes the window.
 	/// </summary>
 	[MenuItem("Window/Uploader")]
-    static void Init ()
+	static void Init ()
 	{
 		// Show existing open window, or make new one.
 		Uploader window = EditorWindow.GetWindow(typeof(Uploader)) as Uploader;
